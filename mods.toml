@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+showAsResourcePack=false
+
+[[mods]]
+modId="bannerlordcombat"
+version="1.0.0"
+displayName="Bannerlord Combat"
+description="Directional combat system for Minecraft"
+
+[[dependencies.bannerlordcombat]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bannerlordcombat]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
